@@ -14,8 +14,8 @@ int main() {
     }
     printf("Enter text to append: ");
     fgets(text, sizeof(text), stdin);
-    fputs(text, fp);
-    fclose(fp);
+    fputs(text, p);
+    fclose(p);
     printf("Text appended successfully!\n");
     return 0;
 }
